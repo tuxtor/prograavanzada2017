@@ -3,7 +3,8 @@ Programacion avanzada 2017
 
 > La permanencia en clase es voluntaria - Víctor Orozco
 
-##Reglas de clase
+Reglas de clase
+---------------
 1. No comer en clase
 2. No jugar en clase (es más divertido jugar fuera)
 3. La asistencia no es obligatoria<F12>
