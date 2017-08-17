@@ -1,5 +1,10 @@
 package com.nabenik.demo;
 
+/**
+ * 
+ * @author tuxtor
+ *
+ */
 public class Car {
 
 	public int wheelsQty;

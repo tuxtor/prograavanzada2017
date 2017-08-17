@@ -1,5 +1,10 @@
 package com.nabenik.demo;
 
+/**
+ * Basic class that represents entry point for the demo
+ * @author tuxtor
+ *
+ */
 public class App 
 {
     public static void main( String[] args )
