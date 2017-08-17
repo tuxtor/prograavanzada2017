@@ -7,7 +7,7 @@ Reglas de clase
 ---------------
 1. No comer en clase
 2. No jugar en clase (es más divertido jugar fuera)
-3. La asistencia no es obligatoria<F12>
+3. La asistencia no es obligatoria
 
 Lenguajes a utilizar
 --------------------
@@ -19,9 +19,9 @@ Lenguajes a utilizar
 Herramientas a instalar
 -----------------------
 * Eclipse [IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neonr)
-* Java Developer Kit
-* Clang
-* Node.js
+* [Java Developer Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [Clang](http://desultoryquest.com/blog/using-gcc-and-clang-with-eclipse-on-windows)
+* [Node.js](https://nodejs.org/en/)
 
 Libros
 ------
