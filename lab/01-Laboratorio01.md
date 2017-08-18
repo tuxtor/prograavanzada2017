@@ -28,6 +28,12 @@ De acuerdo a las instrucciones proporcionadas por el profesor, se le solicita qu
 7. Documentar sus resultados utilizando **Markdown**
 8. Entregar sus tareas via GitHub
 
+Tarea para casa
+---------------
+1. Instalar Maven y documentar el proceso via Markdown
+2. Compilar el proyecto disponible el repositorio utilizando Maven y documentar el proceso via Markdown
+3. Utilizar Maven para producir la documentación **JavaDoc**
+
 Enlaces de referencia
 ---------------------
 - [Guia rapida de Git](http://rogerdudler.github.io/git-guide/index.es.html)
