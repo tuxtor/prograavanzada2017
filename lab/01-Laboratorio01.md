@@ -45,3 +45,7 @@ Ejemplos de guias de estilo
 - [Sintaxis Markdown](https://daringfireball.net/projects/markdown/syntax)
 - [Google](https://google.github.io/styleguide/javaguide.html)
 - [Twitter](https://github.com/twitter/commons/blob/master/src/java/com/twitter/common/styleguide.md)
+
+Fecha límite
+------------
+Viernes 18 de agosto, 23:55
