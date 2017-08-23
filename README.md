@@ -3,6 +3,23 @@ Programacion avanzada 2017
 
 > La permanencia en clase es voluntaria - Víctor Orozco
 
+Bitacora de clase
+-----------------
+
+### 22/08/2017 - Principios diseño OO
+* Enlaces utiles:
+	* [Libro auxiliar](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338)
+	* [Implementación](http://www3.ntu.edu.sg/home/ehchua/programming/java/j3b_oopinheritancepolymorphism.html)
+
+### 17/08/2017 - Estilo y documentación
+* Se establecieron las reglas de clase
+* Se hablo de documentación tecnica con Markdown y JavaDoc
+* Enlaces utiles:
+	* [Guia Markdown](https://guides.github.com/features/mastering-markdown/)
+	* [Guia rapida de Git](http://rogerdudler.github.io/git-guide/index.es.html)
+	* [JavaDoc guia de estilo](http://www.oracle.com/technetwork/articles/java/index-137868.html)
+	* [Editor Markdown online](http://dillinger.io/)
+
 Reglas de clase
 ---------------
 1. No comer en clase
