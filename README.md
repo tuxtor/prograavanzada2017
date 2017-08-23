@@ -6,7 +6,10 @@ Programacion avanzada 2017
 Bitacora de clase
 -----------------
 
-### 22/08/2017 - Principios diseño OO
+### 23/08/2017 - Principios diseño OO
+* Se realizó un repaso de principios de POO
+* Slides ya disponibles en el portal
+* Todos los ejemplos seran agregados a la carpeta demo
 * Enlaces utiles:
 	* [Libro auxiliar](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338)
 	* [Implementación](http://www3.ntu.edu.sg/home/ehchua/programming/java/j3b_oopinheritancepolymorphism.html)
