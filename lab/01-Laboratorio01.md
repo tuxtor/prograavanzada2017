@@ -35,7 +35,7 @@ De acuerdo a las instrucciones proporcionadas por el profesor, se le solicita qu
   
   ![](http://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_PolymorphismShape.png)
 
-4. Documentar sus resultados utilizando **Markdown** en un repositorio denominado **labprograavanzada** en una carpeta denominada **lab2**, respondiendo las siguientes preguntas:
+4. Documentar sus resultados utilizando **Markdown** en un repositorio denominado **labprograavanzada** en un archivo denominado **lab2.md**, respondiendo las siguientes preguntas:
 
 - ¿Que es GitHub?
 - ¿Que es EclipseChe?
