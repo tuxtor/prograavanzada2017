@@ -21,8 +21,16 @@ De acuerdo a las instrucciones proporcionadas por el profesor, se le solicita qu
 1. Comprobar la versión de Java disponible en su sistema (compilador y ejecución)
 2. Crear una cuenta en GitHub y utilizarla en EclipseChe
 3. Implementar los siguientes diagramas en EclipseChe
+  a. Agregación
+  
+  ![](http://www3.ntu.edu.sg/home/ehchua/programming/java/images/ClassDiagram_Point.png)
+  ![](http://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_CompositionLinePointDetails.png)
 
-
+  b. Herencia
+  ![](http://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_PersonStudnetTeacher.png)
+  
+  c. Polimorfismo
+  ![](http://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_PolymorphismShape.png)
 
 4. Documentar sus resultados utilizando **Markdown** en un repositorio denominado **labprograavanzada** en una carpeta denominada **lab2**, respondiendo las siguientes preguntas:
 
