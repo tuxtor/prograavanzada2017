@@ -1,38 +1,39 @@
-Laboratorio número 1
+Laboratorio número 2
 ====================
 
 Tema
 ----
-Elaboración de documentación con JavaDoc, uso de markdown y Git
+Elaboración de documentación con Markdown y ejecución de programas con Java
 
 Objetivo
 --------
 El objetivo del presente laboratorio es adquirir y comprobar sus conocimientos en las siguientes areas:
 
-0. Uso basico de un CVS
 1. Elaboración de programas en Java
 2. Distinción de compilador, editor y maquina virtual
 3. Documentación tecnica para proyectos de software mediante **markdown**.
-4. Documentación de proyectos Java mediante **JavaDoc**
+4. Comprobación de conceptos basicos como encapsulamiento, agregación, herencia y polimormismo
 
 Tareas solicitadas
 ------------------
 De acuerdo a las instrucciones proporcionadas por el profesor, se le solicita que elabore las siguientes tareas:
 
-1. Comprobar la versión de Git disponible en su sistema
-2. Realizar una copia del presente repositorio
-3. Comprobar la versión de Java disponible en su sistema (compilador y ejecución)
-4. Compilar apropiadamente el proyecto disponible dentro de la carpeta demo
-5. Extender el proyecto y hacer refactoring para soportar dos nuevas clases (Vehiculo y Motocicleta)
-6. Documentar las nuevas clases asi como los nuevos metodos utilizando **JavaDoc**
-7. Documentar sus resultados utilizando **Markdown**
-8. Entregar sus tareas via GitHub
+1. Comprobar la versión de Java disponible en su sistema (compilador y ejecución)
+2. Crear una cuenta en GitHub y utilizarla en EclipseChe
+3. Implementar los siguientes diagramas en EclipseChe
 
+
+
+4. Documentar sus resultados utilizando **Markdown** en un repositorio denominado **labprograavanzada** en una carpeta denominada **lab2**, respondiendo las siguientes preguntas:
+
+- ¿Que es GitHub?
+- ¿Que es EclipseChe?
+- ¿Que diferencia hay entre agregación y herencia?
+- ¿Que relación existe entre herencia y polimorfismo?
 Tarea para casa
 ---------------
-1. Instalar Maven y documentar el proceso via Markdown
-2. Compilar el proyecto disponible el repositorio utilizando Maven y documentar el proceso via Markdown
-3. Utilizar Maven para producir la documentación **JavaDoc**
+1. Instalar Eclipse Oxygen y documentar el proceso via Markdown
+2. Implementar las siguientes guias
 
 Enlaces de referencia
 ---------------------
@@ -48,4 +49,5 @@ Ejemplos de guias de estilo
 
 Fecha límite
 ------------
-Viernes 18 de agosto, 23:55
+Lab 11:00 am
+Tarea Lunes 23:55
