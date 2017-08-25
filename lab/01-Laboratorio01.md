@@ -43,8 +43,9 @@ De acuerdo a las instrucciones proporcionadas por el profesor, se le solicita qu
 - ¿Que relación existe entre herencia y polimorfismo?
 Tarea para casa
 ---------------
-1. Instalar Eclipse Oxygen y documentar el proceso via Markdown
-2. Implementar las siguientes guias
+1. Instalar Eclipse Oxygen
+2. Implementar los mismos diagramas en Eclipse Oxygen
+3. Documentar su tarea via Markdown
 
 Enlaces de referencia
 ---------------------
