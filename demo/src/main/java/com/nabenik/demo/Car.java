@@ -5,11 +5,19 @@ package com.nabenik.demo;
  * @author tuxtor
  *
  */
-public class Car {
+public class Car extends Vehicle {
+	
+	
 
+	public Car(int wheelsQty, int doorsQty) {
+		super();
+		this.wheelsQty = wheelsQty;
+		this.doorsQty = doorsQty;
+	}
+	
 	public int wheelsQty;
 	public int doorsQty;
-	public String color;
+	
 	public int getWheelsQty() {
 		return wheelsQty;
 	}
@@ -30,8 +38,8 @@ public class Car {
 	}
 	@Override
 	public String toString() {
-		return "Car [wheelsQty=" + wheelsQty + ", doorsQty=" + doorsQty + ", color=" + color + "]";
+		return "Car [wheelsQty=" + wheelsQty + ", doorsQty=" + doorsQty + ", color=" + color + ", brand=" + brand
+				+ ", model=" + model + "]";
 	}
-	
 	
 }
