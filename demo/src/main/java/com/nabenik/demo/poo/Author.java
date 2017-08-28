@@ -1,4 +1,4 @@
-package com.nabenik.demo;
+package com.nabenik.demo.poo;
 
 /**
  * Java Bean que representa la clase autor 

@@ -1,5 +1,8 @@
 package com.nabenik.demo;
 
+import com.nabenik.demo.poo.Author;
+import com.nabenik.demo.poo.Book;
+
 /**
  * Basic class that represents entry point for the demo
  * @author tuxtor
