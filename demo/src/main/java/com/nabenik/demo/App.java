@@ -1,23 +1,21 @@
 package com.nabenik.demo;
 
-import com.nabenik.demo.poo.Author;
-import com.nabenik.demo.poo.Book;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
- * Basic class that represents entry point for the demo
+ * Basic class that represents entry point for the demos
  * @author tuxtor
  *
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) throws IOException
     {
-    	Author autor1 = new Author("O. Deittel", 
-    			"deittel@url.edu.gt", 
-    			'm');
-    	Book book1 = new Book("Java: SE 8", autor1, 10.0, 1);
-    	
-    	System.out.println(book1.toString());
-    	
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter String");
+        String s = br.readLine();
+    	System.out.println(s);
     }
 }
