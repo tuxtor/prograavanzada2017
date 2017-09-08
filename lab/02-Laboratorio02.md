@@ -64,5 +64,5 @@ Fecha límite
 Lab 11:00 am
 Tarea Lunes 23:55
 
-![](cupcake.png)
+![](cupcake.jpg)
   
