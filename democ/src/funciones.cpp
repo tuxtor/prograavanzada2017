@@ -6,16 +6,25 @@
  */
 #include <stdlib.h>
 #include <stdio.h>
-void intercambia(int x, int y){
+void intercambia(int * x, int * y){
+
 	int z;
-	z = x;
-	x = y;
-	y = z;
+	z = *x;
+	*x = *y;
+	*y = z;
 }
 
 void demostrarPuntero(){
-	int i = 10;
+	int i = 30;
 	int * p = &i;
-	printf("%d", *p);
+	int * q = p;
+
+	*q=40;
+	printf("p= %d %d \n",*p, *q);
+	*p=50;
+	printf("p=%d\n",*q);
+	printf("qdir=%d\n",q);
+	printf("pdir=%d\n",p);
+
 }
 

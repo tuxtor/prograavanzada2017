@@ -15,12 +15,12 @@ using namespace std;
 int main() {
 	int a = 7, b = 8;
 
-	demostrarPuntero();
+//	demostrarPuntero();
 
-//	printf("a=%d b=%d\n",a,b);
-//
-//	intercambia(a,b);
-//	printf("a=%d b=%d\n",a,b);
+	printf("a=%d b=%d\n",a,b);
+
+	intercambia(&a,&b);
+	printf("a=%d b=%d\n",a,b);
 	return 0;
 }
 

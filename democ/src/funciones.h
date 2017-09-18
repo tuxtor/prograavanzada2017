@@ -9,7 +9,7 @@
 #define FUNCIONES_H_
 
 void demostrarPuntero();
-void intercambia(int, int);
+void intercambia(int *, int *);
 
 
 
