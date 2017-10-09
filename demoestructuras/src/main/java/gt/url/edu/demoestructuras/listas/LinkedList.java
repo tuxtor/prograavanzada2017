@@ -1,10 +1,22 @@
 package gt.url.edu.demoestructuras.listas;
 
+/**
+ * Implementacion de lista enlazada utilizando generics
+ * @author tuxtor
+ *
+ * @param <E>
+ */
 public class LinkedList<E> {
 
+	/**
+	 * Inner class
+	 * @author tuxtor
+	 *
+	 * @param <E>
+	 */
 	private static class Node<E>{
-		private E element;
-		private Node<E> next;
+		private E element; //Valor
+		private Node<E> next; //Puntero en la lista
 		public Node(E element, Node<E> next) {
 			super();
 			this.element = element;

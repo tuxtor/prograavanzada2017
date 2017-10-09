@@ -31,7 +31,7 @@ public class CircularLinkedList<E> {
 	
 	public E first() {
 		if (isEmpty()) return null;
-		return tail.getNext().getElement();
+		return tail.getNext().getElement();//Primer cambio
 	}
 	
 	public E last() {
