@@ -4,8 +4,8 @@ public class DoubleLinkedList<E> {
 
 	private static class Node<E> {
 		private E element;
-		private Node<E> prev;
-		private Node<E> next;
+		private Node<E> prev;//Anterior
+		private Node<E> next;//Siguiente
 
 		public Node(E e, Node<E> p, Node<E> n) {
 			element = e;
@@ -35,14 +35,14 @@ public class DoubleLinkedList<E> {
 
 	}
 
-	private Node<E> header = null;
+	private Node<E> header = null;//Referencia
 	private Node<E> trailer = null;
 	private int size = 0;
 
 	public DoubleLinkedList() {
-		super();
 		header = new Node<>(null, null, null);
 		trailer = new Node<>(null, header, null);
+		header.setNext(trailer);
 	}
 
 	public int size() {

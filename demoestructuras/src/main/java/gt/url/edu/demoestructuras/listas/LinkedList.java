@@ -1,12 +1,15 @@
 package gt.url.edu.demoestructuras.listas;
 
+import gt.url.edu.demoestructuras.ds.Queue;
+import gt.url.edu.demoestructuras.ds.Stack;
+
 /**
  * Implementacion de lista enlazada utilizando generics
  * @author tuxtor
  *
  * @param <E>
  */
-public class LinkedList<E> {
+public class LinkedList<E> implements Stack<E>, Queue<E>{
 
 	/**
 	 * Inner class
@@ -75,6 +78,35 @@ public class LinkedList<E> {
 		size--;
 		if(size == 0) tail = null;
 		return response;
+	}
+
+	@Override
+	public void push(E e) {
+		this.addFirst(e);
+		
+	}
+
+	@Override
+	public E top() {
+		
+		return this.first();
+	}
+
+	@Override
+	public E pop() {
+		
+		return this.removeFirst();
+	}
+
+	@Override
+	public void enqueue(E e) {
+		this.addLast(e);
+		
+	}
+
+	@Override
+	public E dequeue() {
+		return removeFirst();
 	}
 	
 	
