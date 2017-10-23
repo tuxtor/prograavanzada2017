@@ -1,6 +1,41 @@
 package gt.url.edu.demoestructuras.ds;
 
-public class ArrayList<E> implements List<E> {
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+public class ArrayList<E> implements List<E>, Iterable<E> {
+	
+	/**
+	 * Implementacion de iterador basado en el iterador oficial de Java
+	 */
+	private class ArrayIterator implements Iterator<E>{
+		
+		private int j = 0; 
+		boolean removable = false; // can remove be called at this time?
+
+		@Override
+		public boolean hasNext() {
+			return j < size;
+		}
+
+		@Override
+		public E next() throws NoSuchElementException {
+			if (j == size) throw new NoSuchElementException("No next element");
+			removable = true;
+			return data[j++];
+		}
+		
+		public void remove() throws IllegalStateException {
+			if (!removable) throw new IllegalStateException("nothing to remove");
+				ArrayList.this.remove(j-1);
+			j--;
+			removable = false;
+		}
+	}
+	
+	public Iterator<E> iterator( ) {
+		return new ArrayIterator();
+	}
 
 	public static final int CAPACITY = 16;
 	private E[] data;
@@ -36,11 +71,12 @@ public class ArrayList<E> implements List<E> {
 
 	public void add(int i, E e) {
 		checkIndex(i, size + 1);
-		if (size == data.length) // not enough capacity
+		if (size == data.length)
 			resize(2 * data.length);
-		for (int k = size - 1; k >= i; k--) // start by shifting rightmost
+		for (int k = size - 1; k >= i; k--)
 			data[k + 1] = data[k];
-		data[i] = e; // ready to place the new element size++;
+		data[i] = e; 
+		size++;
 
 	}
 
