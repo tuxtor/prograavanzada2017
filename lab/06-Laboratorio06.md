@@ -1,4 +1,4 @@
-Laboratorio número 4
+Laboratorio número 5
 ====================
 
 Tema
@@ -17,7 +17,7 @@ De acuerdo a sus conocimientos adquiridos, escriba un programa que sea capaz de 
 
 ![Diagrama](http://sydney.edu.au/engineering/it/courses/info1105/2017/media/linkedlist-q1-solution.jpg)
 
-Para su implementación se sugiere el uso de PositionalLinkedList [PositionalList](https://github.com/tuxtor/prograavanzada2017/blob/master/demoestructuras/src/main/java/gt/url/edu/demoestructuras/listas/PositionalList.java)
+Para su implementación se sugiere el uso de [PositionalList](https://github.com/tuxtor/prograavanzada2017/blob/master/demoestructuras/src/main/java/gt/url/edu/demoestructuras/listas/PositionalList.java)
 
 Tarea para casa
 ---------------
