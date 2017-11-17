@@ -11,6 +11,16 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
 		private Node<E> parent;
 		private Node<E> left;
 		private Node<E> right;
+		
+		
+
+		@Override
+		public String toString() {
+			return "Node [element=" + element 
+					+ ", left=" + left 
+					+ ", right=" + right + "]"
+					+ "\n";
+		}
 
 		public Node(E e, Node<E> above, Node<E> leftChild, Node<E> rightChild) {
 			element = e;
